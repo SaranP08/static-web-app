@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Value Changer</title>
+    <style>
+      h1 {
+        color: #ff0404; /* Green color */
+        text-align: center;
+        font-family: Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Value Changer</h1>
+
+    <script>
+      let currentValue = 0;
+
+      function changeValue() {
+        currentValue++;
+        document.getElementById("value").textContent = currentValue;
+      }
+    </script>
+  </body>
+</html>
